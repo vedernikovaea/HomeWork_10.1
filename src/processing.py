@@ -9,6 +9,7 @@ def filter_by_state(data, state='EXECUTED') -> list[str]:
 def sort_by_date(data, reverse=True) -> list[str]:
     """
     Функция принимает список словарей и параметр,
-    задающий порядок сортировки и возвращает новый список, откортированный по дате
+    задающий порядок сортировки и возвращает новый
+    список, откортированный по дате
     """
     return sorted(data, key=lambda x: x.get('date', ''), reverse=reverse)
