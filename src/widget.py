@@ -23,5 +23,3 @@ def mask_account_card(user_number_1: str) -> str:
             return f'{non_digits} {masked_digits}'
         else:
             return masked_digits
-
-    return "Неизвестный формат карты"

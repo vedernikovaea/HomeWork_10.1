@@ -1,5 +1,6 @@
-from src.masks import mask_card
 import pytest
+
+from src.masks import mask_card
 
 
 @pytest.mark.parametrize("input_card,expected", [
