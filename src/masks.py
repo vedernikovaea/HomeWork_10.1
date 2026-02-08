@@ -28,4 +28,3 @@ print("\nПример счета:")
 account = "25256698223456298722"
 print(f"Было: {account}")
 print(f"Стало: {mask_account(account)}")
-
